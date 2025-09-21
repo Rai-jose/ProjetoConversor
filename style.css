@@ -1,0 +1,108 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+body {
+    background-color: #000000;
+
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #D6D5C9;
+    margin: 20px auto;
+    padding: 24px 20px;
+    
+
+}
+
+label {
+    color: #392B58;
+    font-size: 14px;
+    font-weight: 400;
+}
+select, input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 48px;
+    width: 100%;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #353A47;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+button {
+    border-radius: 5px;
+    background: #772FD3;
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #D6D5C9;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .3;
+}
+button:active{
+    opacity: .8;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img, .logo-value, #currency-img {
+    margin: 15px auto 10px;
+    display: block;
+    height: 50px;
+    object-fit: contain;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1px;
+}
+
+
+.currency {
+    color: #000000;
+    font-size: 14px;
+}
+
+.currency-value {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700px;
+
+
+}
+
